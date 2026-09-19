@@ -1,0 +1,4 @@
+//Mysql 도커 실행 및 생성 예제
+docker run -d --name mysql -e MYSQL_ROOT_PASSWORD=12345678 -p 3306:3306 mysql:8.4
+//Redis 도커 실행 및 생성 예제
+docker run -d --name expert-redis -p 127.0.0.1:6379:6379 redis:7
